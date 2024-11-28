@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvuru Formu</title>
+</head>
+<body>
+    <form name="form1">
+        <h1>İş Başvuru Formu</h1>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <label>Ad Soyad</label><br><input type="text" placeholder="Ad Soyad giriniz"><br><br>
+            <label>Doğum Tarihi</label><br><input type="date"><br><br>
+            <label>Cinsiyet</label><br><input type="radio" name="Cinsiyet">Erkek<input type="radio" name="Cinsiyet">Kadın <br>
+        </fieldset>
+        <fieldset>
+            <legend>İletişim Bilgileri </legend>
+            <label>E-Posta</label><br><input type="email" placeholder="E-Posta giriniz"><br><br>
+            <label>Telefon</label><br><input type="tel" placeholder="0555 555 55 55"><br><br>
+            <label>Şehir</label><br><select name="iller" size="1"><br>
+                <option value="34">İstanbul</option>
+                <option value="44">Malatya</option>
+                <option value="36">Kars</option>
+                <option value="35">izmir</option>
+            </select><br><br>
+            <label>İlçe</label><br><input type="text"><br><br>
+            <label>Adres</label><br><textarea name="text" rows="5" cols="21"></textarea><br><br>
+            <label>Web Sitesi</label><br><input type="text" placeholder="Web Site Adresi">
+            
+
+        </fieldset>
+        <fieldset>
+            <legend>Kariyer Bilgileri</legend>
+            <label>Başvurduğunuz birim</label><br><input type="text" placeholder="Satış / Pazarlama"><br><br>
+            <label>İş Tecrübesi</label><br><input type="number" placeholder="0" min="0" max="20">Yıl <br><br>
+            <label>Yabancı Dil Seviyesi</label><br><input type="range">
+        </fieldset>
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <label>Hobileriniz</label><br>
+                <input type="checkbox" name="ch1">Kitap 
+                <input type="checkbox" name="ch2">Müzik 
+                <input type="checkbox" name="ch3">Sinema <br> <br>
+            <label>Favori Renginiz </label><input type="color"><br><br>
+            <label><strong>Fotoğraf Yükleyin</strong></label><br><input type="file">
+        </fieldset>
+        <button onclick="">Okudum Anladım</button>
+        <button disabled >Tamam</button>
+        <input type="reset" value="Temizle">
+        <script>
+        </script>
+    </form>
+</body>
+</html>

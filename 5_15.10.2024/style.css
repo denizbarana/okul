@@ -1,0 +1,66 @@
+.k1 {
+  width: 150px;
+  height: 100px;
+  border: 2px solid;
+  margin-bottom: 60px;
+  float: left;
+  margin-right: 50px;
+}
+.k1 img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+/*
+index1.html 
+*/
+.kapsa {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.k2 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid;
+  margin: 2px;
+}
+.k2:hover {
+  background-color: black;
+  color: white;
+}
+img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+body {
+  background-color: grey;
+}
+a {
+  width: auto;
+  height: 22px;
+  font-size: 22px;
+  margin-right: 20px;
+  border: dashed;
+  text-decoration: none;
+}
+p {
+  font-size: 17px;
+  text-align: center;
+}
+/*
+#form1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  */
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(14, 13, 13);
+}
+a:hover {
+  color: bisque;
+}

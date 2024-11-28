@@ -1,0 +1,39 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#disari {
+  width: 100%;
+  height: 590px;
+  background-color: lightsalmon;
+  padding-bottom: 50px;
+  position: relative;
+}
+#iceri {
+  width: 100%;
+  height: 540px;
+  background-color: navy;
+  padding: 5px;
+}
+h3 {
+  margin: 5px;
+  color: white;
+}
+h4 {
+  color: black;
+  margin: 5px;
+}
+a {
+  float: right;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+#btn1 {
+  width: 160px;
+}

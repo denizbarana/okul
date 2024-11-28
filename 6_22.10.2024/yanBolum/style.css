@@ -1,0 +1,19 @@
+#bolumArama {
+  background-color: gray;
+  padding: 1vw;
+}
+#bolumGitme {
+  background-color: gray;
+  padding: 1vw;
+}
+.p1 a {
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom: 1px dashed black;
+}
+a:hover {
+  text-decoration: underline;
+}
+#btn1:active {
+  box-shadow: 5px 5px 5px red;
+}

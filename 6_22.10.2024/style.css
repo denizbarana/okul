@@ -1,0 +1,14 @@
+#form {
+  background-color: rgb(12, 215, 230);
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 10vh 20vh 5vh;
+  gap: 1vw;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+#form div {
+  background-color: gray;
+  box-shadow: 5px 5px 5px black;
+}

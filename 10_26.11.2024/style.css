@@ -1,0 +1,39 @@
+#background {
+  width: 1120px;
+  height: 100%;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ayakkabi {
+  width: 500px;
+  height: 250px;
+  margin: 30px;
+}
+#background img {
+  width: 500px;
+  height: 250px;
+}
+#kirmizi {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(255, 0, 0, 0.7);
+  color: white;
+  position: relative;
+  bottom: 273px;
+  left: 250px;
+  text-align: center;
+}
+.marka {
+  width: 70px;
+  height: 40px;
+  font-size: 22px;
+  background-color: white;
+  box-shadow: 1px 1px 1px;
+  border: 1px solid;
+  position: relative;
+  bottom: 450px;
+  left: 30px;
+  text-align: center;
+  padding: 25px;
+}

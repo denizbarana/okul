@@ -1,0 +1,13 @@
+.divs{
+
+}
+.imgs{
+    margin: 10px;
+}
+.paragraphes{
+    background-color: yellowgreen;
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
