@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    function topla() {
+      let sayi1, sayi2, sonuc;
+      sayi1 = document.getElementById("sayi1").value;
+      sayi2 = document.getElementById("sayi2").value;
+      sonuc = Number(sayi1) + Number(sayi2);
+      document.getElementById("sonuc").innerHTML = sonuc;
+    }
+    function bol() {
+      let sayi1, sayi2, sonuc;
+      sayi1 = document.getElementById("sayi1").value;
+      sayi2 = document.getElementById("sayi2").value;
+      sonuc = Number(sayi1) / Number(sayi2);
+      document.getElementById("sonuc").innerHTML = sonuc;
+    }
+    function carp() {
+      let sayi1, sayi2, sonuc;
+      sayi1 = document.getElementById("sayi1").value;
+      sayi2 = document.getElementById("sayi2").value;
+      sonuc = Number(sayi1) * Number(sayi2);
+      document.getElementById("sonuc").innerHTML = sonuc;
+    }
+    function cıkar() {
+      let sayi1, sayi2, sonuc;
+      sayi1 = document.getElementById("sayi1").value;
+      sayi2 = document.getElementById("sayi2").value;
+      sonuc = Number(sayi1) - Number(sayi2);
+      document.getElementById("sonuc").innerHTML = sonuc;
+    }
+  </script>
+
+  <body>
+    <label for="sayi1">İlk sayınız : </label
+    ><input id="sayi1" type="text" placeholder="Sayı giriniz" /><br />
+    <label for="sayi2">İkinci sayınız : </label
+    ><input type="text" id="sayi2" placeholder="Sayı giriniz" /><br />
+    <span id="sonuc"></span>
+    <button onclick="topla()">Topla</button>
+    <button onclick="carp()">Çarp</button>
+    <button onclick="bol()">Böl</button>
+    <button onclick="cıkar()">Çıkar</button>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+body {
+  background-color: bisque;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#logo {
+  width: 200px;
+  height: 40px;
+  margin-left: 25px;
+  border-radius: 20px;
+}
+
+#hamburgerFoto {
+  width: 98%;
+  height: 200px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 10px;
+}
+.navbar {
+  width: 98%;
+  margin-top: 10px;
+  background-color: white;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 10px;
+}
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: red;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.navvar {
+  margin-top: 10px;
+  width: 98%;
+  height: 100%;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 10px;
+}
+.navvar input,
+label {
+  margin-left: 30px;
+}
+.abudik img {
+  width: 100%;
+  height: 100%;
+}
+.abudik {
+  height: 100px;
+  margin: 0px;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: grey;
+}
+.bSlider {
+  margin-left: 10px;
+  background-color: aquamarine;
+  border: none;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 30vw;
+  box-shadow: 1px 1px 1px black;
+  margin-left: 10px;
+}
+#btn3 {
+  margin: 0px;
+}
+#hamburgerFoto img {
+  width: 98%;
+  height: 200px;
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  border-radius: 40px;
+}
+#selam {
+  display: flex;
+  border: none;
+  text-align: center;
+}
+.renk {
+  width: 100px;
+  border-radius: 40px;
+}
+#kirmizi {
+  margin-left: 75%;
+  background-color: red;
+}
+#mavi {
+  background-color: blue;
+}
+#sari {
+  background-color: yellow;
+}
+#Beyaz {
+  background-color: bisque;
+}

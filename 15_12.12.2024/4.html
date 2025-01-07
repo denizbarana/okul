@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    var ad, x;
+    function mesaj() {
+      alert("Merhaba \n Dünya");
+    }
+    function mesaj2() {
+      prompt("Adın Ne:");
+    }
+    function degisken() {
+      let z, y;
+      x = prompt("sayı giriniz");
+      y = 5;
+      z = parseInt(x) + y;
+      document.getElementById("kutu1").innerText = z;
+      meslek = " aşçı ";
+
+      document.getElementById("kutu1").innerText += meslek;
+      deger = "65";
+      z = parseInt(x) + y + deger;
+      document.getElementById("kutu2").innerText = z;
+      z = parseInt(x) + y + Number(deger);
+      document.getElementById("kutu2").innerText += " " + z;
+    }
+  </script>
+  <body>
+    <div id="kutu1"></div>
+    <div id="kutu2"></div>
+    <button onclick="mesaj()">Merhaba Dünya</button>
+    <button onclick="mesaj2()">Merhaba World</button>
+    <button onclick="degisken()">Merhaba wasser</button>
+  </body>
+</html>

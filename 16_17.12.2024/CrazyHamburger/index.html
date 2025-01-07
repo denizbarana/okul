@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="selam">
+      <img src="/images/persons/indir.png" id="logo" />
+      <h3>HAMBURGER</h3>
+      <button class="renk" id="kirmizi"></button
+      ><button class="renk" id="mavi"></button
+      ><button class="renk" id="sari"></button
+      ><button class="renk" id="Beyaz"></button>
+    </div>
+
+    <div id="hamburgerFoto">
+      <img src="/images/forma/forma.jpg" id="resim1" class="images" />
+      <img src="/images/persons/1.man.jpg" id="resim2" class="images" />
+      <img src="/images/backgrounds/binalar.jpg" id="resim3" class="images" />
+    </div>
+    <button class="bSlider" onmousemove="resmiGoster1()">Menu-1</button
+    ><button class="bSlider" onmousemove="resmiGoster2()">Menü-2</button
+    ><button class="bSlider" id="btn3" onmousemove="resmiGoster3()">
+      Menü-3
+    </button>
+    <div class="navbar">
+      <a href="">Ana Sayfa</a><a href="">Ürünler</a><a href="">İletişim</a>
+    </div>
+    <div class="navvar">
+      <h1>Ürün Sipariş</h1>
+      <br />
+      <label for="urun1">1. ÜRÜN ADET :</label><input type="text" id="urun1" />
+      <label for="urun1">1. ÜRÜN FİYAT :</label
+      ><input type="text" id="urun1Fiyat" /><br />
+      <label for="urun2">2. ÜRÜN ADET :</label><input type="text" id="urun2" />
+      <label for="urun2">2. ÜRÜN FİYAT :</label
+      ><input type="text" id="urun2Fiyat" />
+      <p id="KDV">KDV %20 :</p>
+      <p id="total">Tutar :</p>
+      <button
+        id="submit"
+        style="margin-left: 40px; margin-bottom: 10px"
+        onclick="hesapla()"
+      >
+        Hesapla
+      </button>
+    </div>
+    <div class="abudik">
+      <h1>Hamburger</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
