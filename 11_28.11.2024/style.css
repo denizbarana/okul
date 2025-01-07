@@ -1,0 +1,27 @@
+.box {
+  width: 25vh;
+  height: 15vh;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+#k1 {
+  background-color: aquamarine;
+  left: 20px;
+  top: 30px;
+}
+#k2 {
+  background-color: rgb(0, 0, 0);
+  left: 30px;
+  top: 40px;
+}
+#k3 {
+  background-color: rgb(255, 0, 0);
+  left: 40px;
+  top: 50px;
+}
+#k4 {
+  background-color: rgba(6, 255, 72, 0.996);
+  left: 50px;
+  top: 60px;
+}
